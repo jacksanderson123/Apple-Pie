@@ -234,7 +234,7 @@
                                                     </button>
                                                 </subviews>
                                             </stackView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dBA-m4-0yb">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dBA-m4-0yb" userLabel="Current Word Label">
                                                 <rect key="frame" x="0.0" y="150" width="1024" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <nil key="textColor"/>
@@ -264,7 +264,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="correctWordLabel" destination="dBA-m4-0yb" id="3ph-9P-qMg"/>
+                        <outlet property="currentWordLabel" destination="dBA-m4-0yb" id="9O3-Vg-Qm7"/>
                         <outlet property="scoreLabel" destination="Gux-vZ-TQy" id="BsC-dw-uv5"/>
                         <outlet property="treeImageView" destination="k3L-BI-CZg" id="6Yc-Ih-f6X"/>
                         <outletCollection property="letterButtons" destination="mYi-FN-b3p" collectionClass="NSMutableArray" id="pvA-CI-FwW"/>
